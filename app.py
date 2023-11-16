@@ -3,8 +3,8 @@ import torch
 import gradio as gr
 
 #model_id = "stabilityai/stable-diffusion-xl-base-1.0"
-#model_id = "runwayml/stable-diffusion-v1-5"
-model_id = "justinpinkney/miniSD"
+model_id = "runwayml/stable-diffusion-v1-5"
+#model_id = "justinpinkney/miniSD"
 lcm_lora_id = "latent-consistency/lcm-lora-sdv1-5"
 
 if torch.backends.mps.is_available():
