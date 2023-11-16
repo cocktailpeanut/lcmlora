@@ -1,3 +1,8 @@
 diffusers
 transformers
+accelerate
+peft
 gradio
+opencv-python
+numpy
+pillow
